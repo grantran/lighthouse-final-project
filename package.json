@@ -1,0 +1,29 @@
+{
+  "name": "lighthouse-final-project",
+  "version": "1.0.0",
+  "description": "-   Node 5.10.x or above -   NPM 3.8.x or above -   Express -   Node 5.10.x or above -   Body-parser -   Express -   Knex",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "knex": "./node_modules/.bin/knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tindang17/lighthouse-final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tindang17/lighthouse-final-project/issues"
+  },
+  "homepage": "https://github.com/tindang17/lighthouse-final-project#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "knex": "^0.13.0",
+    "pg": "^6.2.4"
+  }
+}
